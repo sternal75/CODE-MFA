@@ -1,0 +1,1153 @@
+
+Glutamine_CY_12345
+		<- Glutamine_Media_12345
+		<- Glutamine_MT_12345
+		<- Glutamate_CY_12345
+
+Glutamate_media_CY_12345
+		<- Glutamate_CY_12345
+
+Lactate_CY_123
+		<- Pyruvate_CY_123
+
+Pyruvate_CY_123
+		<- Pyruvate_MT_123
+		<- Malate_CY_123
+		<- PEP_CY_123
+
+Aspartate_CY_1234
+		<- Aspartate_MT_1234
+		<- OAA_CY_1234
+
+Fumarate_CY_1234
+		<- Aspartate_CY_1234
+		<- Fumarate_MT_1234
+		<- Malate_CY_1234
+		<- Malate_CY_1234
+
+Ribose5P_CY_12345
+		<- 6phosphogluconate_CY_12345
+
+Acetyl_CoA_CY_12
+		<- Citrate_CY_45
+
+Acetyl_CoA_cytosolic_dummy_CY_12
+		<- Acetyl_CoA_CY_12
+
+CarAsp_CY_12345
+		<- Aspartate_CY_1234 + CO2_source_1
+
+Asparagine_CY_1234
+		<- Aspartate_CY_1234
+
+Pyroglutamic_acid_mitochondrial_MT_12345
+		<- Glutamate_MT_12345
+
+Glutamine_MT_12345
+		<- Glutamine_CY_12345
+		<- Glutamate_MT_12345
+
+Glutamate_CY_12345
+		<- Glutamate_MT_12345
+		<- Glutamate_MT_12345
+		<- Glutamine_CY_12345
+		<- AKG_CY_12345
+		<- AKG_CY_12345
+
+Glutamate_MT_12345
+		<- Glutamate_CY_12345
+		<- Glutamate_CY_12345
+		<- Glutamine_MT_12345
+		<- AKG_MT_12345
+		<- AKG_MT_12345
+		<- AKG_MT_12345
+
+AKG_CY_12345
+		<- AKG_MT_12345
+		<- AKG_MT_12345
+		<- Glutamate_CY_12345
+		<- Citrate_CY_12345
+		<- Glutamate_CY_12345
+
+Malate_MT_1234
+		<- Malate_CY_1234
+		<- Malate_CY_1234
+		<- Fumarate_MT_1234
+		<- Fumarate_MT_1234
+		<- OAA_MT_1234
+		<- Pyruvate_MT_123 + CO2_sink_1
+		<- Pyruvate_MT_123 + CO2_sink_1
+
+AKG_MT_12345
+		<- AKG_CY_12345
+		<- AKG_CY_12345
+		<- Glutamate_MT_12345
+		<- Citrate_MT_12345
+		<- Citrate_MT_12345
+		<- Glutamate_MT_12345
+		<- Glutamate_MT_12345
+
+Malate_CY_1234
+		<- Malate_MT_1234
+		<- Malate_MT_1234
+		<- Fumarate_CY_1234
+		<- Fumarate_CY_1234
+		<- OAA_CY_1234
+		<- Pyruvate_CY_123 + CO2_sink_1
+
+Fumarate_MT_1234
+		<- Fumarate_CY_1234
+		<- AKG_MT_2345
+		<- Malate_MT_1234
+		<- Malate_MT_1234
+
+Citrate_CY_123456
+		<- Citrate_MT_123456
+		<- Citrate_MT_123456
+		<- AKG_CY_12345 + CO2_sink_1
+		<- Acetyl_CoA_CY_12 + OAA_CY_1234
+
+Citrate_MT_123456
+		<- Citrate_CY_123456
+		<- Citrate_CY_123456
+		<- AKG_MT_12345 + CO2_source_1
+		<- AKG_MT_12345 + CO2_source_1
+		<- Acetyl_CoA_MT_12 + OAA_MT_1234
+
+Aspartate_MT_1234
+		<- Aspartate_CY_1234
+		<- OAA_MT_1234
+
+Alanine_MT_123
+		<- Alanine_CY_123
+		<- Pyruvate_MT_123
+		<- Alanine_input_intermediate_dummy_123
+
+Alanine_CY_123
+		<- Alanine_MT_123
+		<- Alanine_input_intermediate_dummy_123
+
+Pyruvate_MT_123
+		<- Pyruvate_CY_123
+		<- Malate_MT_123
+		<- Malate_MT_123
+		<- Alanine_MT_123
+
+PEP_CY_123
+		<- PEP_MT_123
+		<- 3PG_123
+
+PEP_MT_123
+		<- PEP_CY_123
+		<- OAA_MT_123
+
+6phosphogluconate_CY_123456
+		<- Glc6P_CY_123456
+		<- Ribose5P_CY_12345 + CO2_sink_1
+
+Acetyl_CoA_MT_12
+		<- Citrate_MT_45
+		<- Pyruvate_MT_23
+
+Malate_CY_123
+		<- Malate_MT_123
+		<- Malate_MT_123
+		<- Fumarate_CY_123
+		<- Fumarate_CY_234
+		<- OAA_CY_123
+		<- Pyruvate_CY_123
+
+OAA_CY_1234
+		<- Citrate_CY_1236
+		<- Malate_CY_1234
+		<- Aspartate_CY_1234
+
+6phosphogluconate_CY_12345
+		<- Glc6P_CY_12345
+		<- Ribose5P_CY_12345
+
+Citrate_CY_45
+		<- Citrate_MT_45
+		<- Citrate_MT_45
+		<- AKG_CY_45
+		<- Acetyl_CoA_CY_12
+
+Citrate_CY_12345
+		<- Citrate_MT_12345
+		<- Citrate_MT_12345
+		<- AKG_CY_12345
+		<- Acetyl_CoA_CY_12 + OAA_CY_234
+
+OAA_MT_1234
+		<- Citrate_MT_1236
+		<- Malate_MT_1234
+		<- Aspartate_MT_1234
+		<- PEP_MT_123 + CO2_source_1
+		<- Pyruvate_MT_123 + CO2_source_1
+
+Citrate_MT_12345
+		<- Citrate_CY_12345
+		<- Citrate_CY_12345
+		<- AKG_MT_12345
+		<- AKG_MT_12345
+		<- Acetyl_CoA_MT_12 + OAA_MT_234
+
+AKG_MT_2345
+		<- AKG_CY_2345
+		<- AKG_CY_2345
+		<- Glutamate_MT_2345
+		<- Citrate_MT_2345
+		<- Citrate_MT_2345
+		<- Glutamate_MT_2345
+		<- Glutamate_MT_2345
+
+Alanine_input_intermediate_dummy_123
+		<- OTHER_3_carbon_123
+
+Malate_MT_123
+		<- Malate_CY_123
+		<- Malate_CY_123
+		<- Fumarate_MT_123
+		<- Fumarate_MT_234
+		<- OAA_MT_123
+		<- Pyruvate_MT_123
+		<- Pyruvate_MT_123
+
+3PG_123
+		<- 13BPG_123
+
+OAA_MT_123
+		<- Citrate_MT_236
+		<- Malate_MT_123
+		<- Aspartate_MT_123
+		<- PEP_MT_123
+		<- Pyruvate_MT_123
+
+Glc6P_CY_123456
+		<- Glucose_123456
+
+Citrate_MT_45
+		<- Citrate_CY_45
+		<- Citrate_CY_45
+		<- AKG_MT_45
+		<- AKG_MT_45
+		<- Acetyl_CoA_MT_12
+
+Pyruvate_MT_23
+		<- Pyruvate_CY_23
+		<- Malate_MT_23
+		<- Malate_MT_23
+		<- Alanine_MT_23
+
+Fumarate_CY_123
+		<- Aspartate_CY_123
+		<- Fumarate_MT_123
+		<- Malate_CY_123
+		<- Malate_CY_234
+
+Fumarate_CY_234
+		<- Aspartate_CY_234
+		<- Fumarate_MT_234
+		<- Malate_CY_234
+		<- Malate_CY_123
+
+OAA_CY_123
+		<- Citrate_CY_236
+		<- Malate_CY_123
+		<- Aspartate_CY_123
+
+Citrate_CY_1236
+		<- Citrate_MT_1236
+		<- Citrate_MT_1236
+		<- AKG_CY_123 + CO2_sink_1
+		<- OAA_CY_1234
+
+Glc6P_CY_12345
+		<- Glucose_12345
+
+AKG_CY_45
+		<- AKG_MT_45
+		<- AKG_MT_45
+		<- Glutamate_CY_45
+		<- Citrate_CY_45
+		<- Glutamate_CY_45
+
+OAA_CY_234
+		<- Citrate_CY_123
+		<- Malate_CY_234
+		<- Aspartate_CY_234
+
+Citrate_MT_1236
+		<- Citrate_CY_1236
+		<- Citrate_CY_1236
+		<- AKG_MT_123 + CO2_source_1
+		<- AKG_MT_123 + CO2_source_1
+		<- OAA_MT_1234
+
+OAA_MT_234
+		<- Citrate_MT_123
+		<- Malate_MT_234
+		<- Aspartate_MT_234
+		<- PEP_MT_23 + CO2_source_1
+		<- Pyruvate_MT_23 + CO2_source_1
+
+AKG_CY_2345
+		<- AKG_MT_2345
+		<- AKG_MT_2345
+		<- Glutamate_CY_2345
+		<- Citrate_CY_2345
+		<- Glutamate_CY_2345
+
+Glutamate_MT_2345
+		<- Glutamate_CY_2345
+		<- Glutamate_CY_2345
+		<- Glutamine_MT_2345
+		<- AKG_MT_2345
+		<- AKG_MT_2345
+		<- AKG_MT_2345
+
+Citrate_MT_2345
+		<- Citrate_CY_2345
+		<- Citrate_CY_2345
+		<- AKG_MT_2345
+		<- AKG_MT_2345
+		<- Acetyl_CoA_MT_12 + OAA_MT_23
+
+Fumarate_MT_123
+		<- Fumarate_CY_123
+		<- AKG_MT_234
+		<- Malate_MT_123
+		<- Malate_MT_234
+
+Fumarate_MT_234
+		<- Fumarate_CY_234
+		<- AKG_MT_345
+		<- Malate_MT_234
+		<- Malate_MT_123
+
+13BPG_123
+		<- G3P_123
+
+Citrate_MT_236
+		<- Citrate_CY_236
+		<- Citrate_CY_236
+		<- AKG_MT_23 + CO2_source_1
+		<- AKG_MT_23 + CO2_source_1
+		<- OAA_MT_123
+
+Aspartate_MT_123
+		<- Aspartate_CY_123
+		<- OAA_MT_123
+
+AKG_MT_45
+		<- AKG_CY_45
+		<- AKG_CY_45
+		<- Glutamate_MT_45
+		<- Citrate_MT_45
+		<- Citrate_MT_45
+		<- Glutamate_MT_45
+		<- Glutamate_MT_45
+
+Pyruvate_CY_23
+		<- Pyruvate_MT_23
+		<- Malate_CY_23
+		<- PEP_CY_23
+
+Malate_MT_23
+		<- Malate_CY_23
+		<- Malate_CY_23
+		<- Fumarate_MT_23
+		<- Fumarate_MT_23
+		<- OAA_MT_23
+		<- Pyruvate_MT_23
+		<- Pyruvate_MT_23
+
+Alanine_MT_23
+		<- Alanine_CY_23
+		<- Pyruvate_MT_23
+		<- Alanine_input_intermediate_dummy_23
+
+Aspartate_CY_123
+		<- Aspartate_MT_123
+		<- OAA_CY_123
+
+Malate_CY_234
+		<- Malate_MT_234
+		<- Malate_MT_234
+		<- Fumarate_CY_234
+		<- Fumarate_CY_123
+		<- OAA_CY_234
+		<- Pyruvate_CY_23 + CO2_sink_1
+
+Aspartate_CY_234
+		<- Aspartate_MT_234
+		<- OAA_CY_234
+
+Citrate_CY_236
+		<- Citrate_MT_236
+		<- Citrate_MT_236
+		<- AKG_CY_23 + CO2_sink_1
+		<- OAA_CY_123
+
+AKG_CY_123
+		<- AKG_MT_123
+		<- AKG_MT_123
+		<- Glutamate_CY_123
+		<- Citrate_CY_123
+		<- Glutamate_CY_123
+
+Glutamate_CY_45
+		<- Glutamate_MT_45
+		<- Glutamate_MT_45
+		<- Glutamine_CY_45
+		<- AKG_CY_45
+		<- AKG_CY_45
+
+Citrate_CY_123
+		<- Citrate_MT_123
+		<- Citrate_MT_123
+		<- AKG_CY_123
+		<- OAA_CY_234
+
+AKG_MT_123
+		<- AKG_CY_123
+		<- AKG_CY_123
+		<- Glutamate_MT_123
+		<- Citrate_MT_123
+		<- Citrate_MT_123
+		<- Glutamate_MT_123
+		<- Glutamate_MT_123
+
+Citrate_MT_123
+		<- Citrate_CY_123
+		<- Citrate_CY_123
+		<- AKG_MT_123
+		<- AKG_MT_123
+		<- OAA_MT_234
+
+Malate_MT_234
+		<- Malate_CY_234
+		<- Malate_CY_234
+		<- Fumarate_MT_234
+		<- Fumarate_MT_123
+		<- OAA_MT_234
+		<- Pyruvate_MT_23 + CO2_sink_1
+		<- Pyruvate_MT_23 + CO2_sink_1
+
+Aspartate_MT_234
+		<- Aspartate_CY_234
+		<- OAA_MT_234
+
+PEP_MT_23
+		<- PEP_CY_23
+		<- OAA_MT_23
+
+Glutamate_CY_2345
+		<- Glutamate_MT_2345
+		<- Glutamate_MT_2345
+		<- Glutamine_CY_2345
+		<- AKG_CY_2345
+		<- AKG_CY_2345
+
+Citrate_CY_2345
+		<- Citrate_MT_2345
+		<- Citrate_MT_2345
+		<- AKG_CY_2345
+		<- Acetyl_CoA_CY_12 + OAA_CY_23
+
+Glutamine_MT_2345
+		<- Glutamine_CY_2345
+		<- Glutamate_MT_2345
+
+OAA_MT_23
+		<- Citrate_MT_23
+		<- Malate_MT_23
+		<- Aspartate_MT_23
+		<- PEP_MT_23
+		<- Pyruvate_MT_23
+
+AKG_MT_234
+		<- AKG_CY_234
+		<- AKG_CY_234
+		<- Glutamate_MT_234
+		<- Citrate_MT_234
+		<- Citrate_MT_234
+		<- Glutamate_MT_234
+		<- Glutamate_MT_234
+
+AKG_MT_345
+		<- AKG_CY_345
+		<- AKG_CY_345
+		<- Glutamate_MT_345
+		<- Citrate_MT_345
+		<- Citrate_MT_345
+		<- Glutamate_MT_345
+		<- Glutamate_MT_345
+
+G3P_123
+		<- Glc6P_CY_123
+		<- Glc6P_CY_456
+
+AKG_MT_23
+		<- AKG_CY_23
+		<- AKG_CY_23
+		<- Glutamate_MT_23
+		<- Citrate_MT_23
+		<- Citrate_MT_23
+		<- Glutamate_MT_23
+		<- Glutamate_MT_23
+
+Glutamate_MT_45
+		<- Glutamate_CY_45
+		<- Glutamate_CY_45
+		<- Glutamine_MT_45
+		<- AKG_MT_45
+		<- AKG_MT_45
+		<- AKG_MT_45
+
+Malate_CY_23
+		<- Malate_MT_23
+		<- Malate_MT_23
+		<- Fumarate_CY_23
+		<- Fumarate_CY_23
+		<- OAA_CY_23
+		<- Pyruvate_CY_23
+
+PEP_CY_23
+		<- PEP_MT_23
+		<- 3PG_23
+
+Fumarate_MT_23
+		<- Fumarate_CY_23
+		<- AKG_MT_34
+		<- Malate_MT_23
+		<- Malate_MT_23
+
+Alanine_CY_23
+		<- Alanine_MT_23
+		<- Alanine_input_intermediate_dummy_23
+
+Alanine_input_intermediate_dummy_23
+		<- OTHER_3_carbon_23
+
+AKG_CY_23
+		<- AKG_MT_23
+		<- AKG_MT_23
+		<- Glutamate_CY_23
+		<- Citrate_CY_23
+		<- Glutamate_CY_23
+
+Glutamate_CY_123
+		<- Glutamate_MT_123
+		<- Glutamate_MT_123
+		<- Glutamine_CY_123
+		<- AKG_CY_123
+		<- AKG_CY_123
+
+Glutamine_CY_45
+		<- Glutamine_Media_45
+		<- Glutamine_MT_45
+		<- Glutamate_CY_45
+
+Glutamate_MT_123
+		<- Glutamate_CY_123
+		<- Glutamate_CY_123
+		<- Glutamine_MT_123
+		<- AKG_MT_123
+		<- AKG_MT_123
+		<- AKG_MT_123
+
+Glutamine_CY_2345
+		<- Glutamine_Media_2345
+		<- Glutamine_MT_2345
+		<- Glutamate_CY_2345
+
+OAA_CY_23
+		<- Citrate_CY_23
+		<- Malate_CY_23
+		<- Aspartate_CY_23
+
+Citrate_MT_23
+		<- Citrate_CY_23
+		<- Citrate_CY_23
+		<- AKG_MT_23
+		<- AKG_MT_23
+		<- OAA_MT_23
+
+Aspartate_MT_23
+		<- Aspartate_CY_23
+		<- OAA_MT_23
+
+AKG_CY_234
+		<- AKG_MT_234
+		<- AKG_MT_234
+		<- Glutamate_CY_234
+		<- Citrate_CY_234
+		<- Glutamate_CY_234
+
+Glutamate_MT_234
+		<- Glutamate_CY_234
+		<- Glutamate_CY_234
+		<- Glutamine_MT_234
+		<- AKG_MT_234
+		<- AKG_MT_234
+		<- AKG_MT_234
+
+Citrate_MT_234
+		<- Citrate_CY_234
+		<- Citrate_CY_234
+		<- AKG_MT_234
+		<- AKG_MT_234
+		<- Acetyl_CoA_MT_2 + OAA_MT_23
+
+AKG_CY_345
+		<- AKG_MT_345
+		<- AKG_MT_345
+		<- Glutamate_CY_345
+		<- Citrate_CY_345
+		<- Glutamate_CY_345
+
+Glutamate_MT_345
+		<- Glutamate_CY_345
+		<- Glutamate_CY_345
+		<- Glutamine_MT_345
+		<- AKG_MT_345
+		<- AKG_MT_345
+		<- AKG_MT_345
+
+Citrate_MT_345
+		<- Citrate_CY_345
+		<- Citrate_CY_345
+		<- AKG_MT_345
+		<- AKG_MT_345
+		<- Acetyl_CoA_MT_12 + OAA_MT_2
+
+Glc6P_CY_123
+		<- Glucose_123
+
+Glc6P_CY_456
+		<- Glucose_456
+
+Glutamate_MT_23
+		<- Glutamate_CY_23
+		<- Glutamate_CY_23
+		<- Glutamine_MT_23
+		<- AKG_MT_23
+		<- AKG_MT_23
+		<- AKG_MT_23
+
+Glutamine_MT_45
+		<- Glutamine_CY_45
+		<- Glutamate_MT_45
+
+Fumarate_CY_23
+		<- Aspartate_CY_23
+		<- Fumarate_MT_23
+		<- Malate_CY_23
+		<- Malate_CY_23
+
+3PG_23
+		<- 13BPG_23
+
+AKG_MT_34
+		<- AKG_CY_34
+		<- AKG_CY_34
+		<- Glutamate_MT_34
+		<- Citrate_MT_34
+		<- Citrate_MT_34
+		<- Glutamate_MT_34
+		<- Glutamate_MT_34
+
+Glutamate_CY_23
+		<- Glutamate_MT_23
+		<- Glutamate_MT_23
+		<- Glutamine_CY_23
+		<- AKG_CY_23
+		<- AKG_CY_23
+
+Citrate_CY_23
+		<- Citrate_MT_23
+		<- Citrate_MT_23
+		<- AKG_CY_23
+		<- OAA_CY_23
+
+Glutamine_CY_123
+		<- Glutamine_Media_123
+		<- Glutamine_MT_123
+		<- Glutamate_CY_123
+
+Glutamine_MT_123
+		<- Glutamine_CY_123
+		<- Glutamate_MT_123
+
+Aspartate_CY_23
+		<- Aspartate_MT_23
+		<- OAA_CY_23
+
+Glutamate_CY_234
+		<- Glutamate_MT_234
+		<- Glutamate_MT_234
+		<- Glutamine_CY_234
+		<- AKG_CY_234
+		<- AKG_CY_234
+
+Citrate_CY_234
+		<- Citrate_MT_234
+		<- Citrate_MT_234
+		<- AKG_CY_234
+		<- Acetyl_CoA_CY_2 + OAA_CY_23
+
+Glutamine_MT_234
+		<- Glutamine_CY_234
+		<- Glutamate_MT_234
+
+Acetyl_CoA_MT_2
+		<- Citrate_MT_4
+		<- Pyruvate_MT_3
+
+Glutamate_CY_345
+		<- Glutamate_MT_345
+		<- Glutamate_MT_345
+		<- Glutamine_CY_345
+		<- AKG_CY_345
+		<- AKG_CY_345
+
+Citrate_CY_345
+		<- Citrate_MT_345
+		<- Citrate_MT_345
+		<- AKG_CY_345
+		<- Acetyl_CoA_CY_12 + OAA_CY_2
+
+Glutamine_MT_345
+		<- Glutamine_CY_345
+		<- Glutamate_MT_345
+
+OAA_MT_2
+		<- Citrate_MT_3
+		<- Malate_MT_2
+		<- Aspartate_MT_2
+		<- PEP_MT_2
+		<- Pyruvate_MT_2
+
+Glutamine_MT_23
+		<- Glutamine_CY_23
+		<- Glutamate_MT_23
+
+13BPG_23
+		<- G3P_23
+
+AKG_CY_34
+		<- AKG_MT_34
+		<- AKG_MT_34
+		<- Glutamate_CY_34
+		<- Citrate_CY_34
+		<- Glutamate_CY_34
+
+Glutamate_MT_34
+		<- Glutamate_CY_34
+		<- Glutamate_CY_34
+		<- Glutamine_MT_34
+		<- AKG_MT_34
+		<- AKG_MT_34
+		<- AKG_MT_34
+
+Citrate_MT_34
+		<- Citrate_CY_34
+		<- Citrate_CY_34
+		<- AKG_MT_34
+		<- AKG_MT_34
+		<- Acetyl_CoA_MT_2 + OAA_MT_2
+
+Glutamine_CY_23
+		<- Glutamine_Media_23
+		<- Glutamine_MT_23
+		<- Glutamate_CY_23
+
+Glutamine_CY_234
+		<- Glutamine_Media_234
+		<- Glutamine_MT_234
+		<- Glutamate_CY_234
+
+Acetyl_CoA_CY_2
+		<- Citrate_CY_4
+
+Citrate_MT_4
+		<- Citrate_CY_4
+		<- Citrate_CY_4
+		<- AKG_MT_4
+		<- AKG_MT_4
+		<- Acetyl_CoA_MT_2
+
+Pyruvate_MT_3
+		<- Pyruvate_CY_3
+		<- Malate_MT_3
+		<- Malate_MT_3
+		<- Alanine_MT_3
+
+Glutamine_CY_345
+		<- Glutamine_Media_345
+		<- Glutamine_MT_345
+		<- Glutamate_CY_345
+
+OAA_CY_2
+		<- Citrate_CY_3
+		<- Malate_CY_2
+		<- Aspartate_CY_2
+
+Citrate_MT_3
+		<- Citrate_CY_3
+		<- Citrate_CY_3
+		<- AKG_MT_3
+		<- AKG_MT_3
+		<- OAA_MT_2
+
+Malate_MT_2
+		<- Malate_CY_2
+		<- Malate_CY_2
+		<- Fumarate_MT_2
+		<- Fumarate_MT_3
+		<- OAA_MT_2
+		<- Pyruvate_MT_2
+		<- Pyruvate_MT_2
+
+Aspartate_MT_2
+		<- Aspartate_CY_2
+		<- OAA_MT_2
+
+PEP_MT_2
+		<- PEP_CY_2
+		<- OAA_MT_2
+
+Pyruvate_MT_2
+		<- Pyruvate_CY_2
+		<- Malate_MT_2
+		<- Malate_MT_2
+		<- Alanine_MT_2
+
+G3P_23
+		<- Glc6P_CY_23
+		<- Glc6P_CY_45
+
+Glutamate_CY_34
+		<- Glutamate_MT_34
+		<- Glutamate_MT_34
+		<- Glutamine_CY_34
+		<- AKG_CY_34
+		<- AKG_CY_34
+
+Citrate_CY_34
+		<- Citrate_MT_34
+		<- Citrate_MT_34
+		<- AKG_CY_34
+		<- Acetyl_CoA_CY_2 + OAA_CY_2
+
+Glutamine_MT_34
+		<- Glutamine_CY_34
+		<- Glutamate_MT_34
+
+Citrate_CY_4
+		<- Citrate_MT_4
+		<- Citrate_MT_4
+		<- AKG_CY_4
+		<- Acetyl_CoA_CY_2
+
+AKG_MT_4
+		<- AKG_CY_4
+		<- AKG_CY_4
+		<- Glutamate_MT_4
+		<- Citrate_MT_4
+		<- Citrate_MT_4
+		<- Glutamate_MT_4
+		<- Glutamate_MT_4
+
+Pyruvate_CY_3
+		<- Pyruvate_MT_3
+		<- Malate_CY_3
+		<- PEP_CY_3
+
+Malate_MT_3
+		<- Malate_CY_3
+		<- Malate_CY_3
+		<- Fumarate_MT_3
+		<- Fumarate_MT_2
+		<- OAA_MT_3
+		<- Pyruvate_MT_3
+		<- Pyruvate_MT_3
+
+Alanine_MT_3
+		<- Alanine_CY_3
+		<- Pyruvate_MT_3
+		<- Alanine_input_intermediate_dummy_3
+
+Citrate_CY_3
+		<- Citrate_MT_3
+		<- Citrate_MT_3
+		<- AKG_CY_3
+		<- OAA_CY_2
+
+Malate_CY_2
+		<- Malate_MT_2
+		<- Malate_MT_2
+		<- Fumarate_CY_2
+		<- Fumarate_CY_3
+		<- OAA_CY_2
+		<- Pyruvate_CY_2
+
+Aspartate_CY_2
+		<- Aspartate_MT_2
+		<- OAA_CY_2
+
+AKG_MT_3
+		<- AKG_CY_3
+		<- AKG_CY_3
+		<- Glutamate_MT_3
+		<- Citrate_MT_3
+		<- Citrate_MT_3
+		<- Glutamate_MT_3
+		<- Glutamate_MT_3
+
+Fumarate_MT_2
+		<- Fumarate_CY_2
+		<- AKG_MT_3
+		<- Malate_MT_2
+		<- Malate_MT_3
+
+Fumarate_MT_3
+		<- Fumarate_CY_3
+		<- AKG_MT_4
+		<- Malate_MT_3
+		<- Malate_MT_2
+
+PEP_CY_2
+		<- PEP_MT_2
+		<- 3PG_2
+
+Pyruvate_CY_2
+		<- Pyruvate_MT_2
+		<- Malate_CY_2
+		<- PEP_CY_2
+
+Alanine_MT_2
+		<- Alanine_CY_2
+		<- Pyruvate_MT_2
+		<- Alanine_input_intermediate_dummy_2
+
+Glc6P_CY_23
+		<- Glucose_23
+
+Glc6P_CY_45
+		<- Glucose_45
+
+Glutamine_CY_34
+		<- Glutamine_Media_34
+		<- Glutamine_MT_34
+		<- Glutamate_CY_34
+
+AKG_CY_4
+		<- AKG_MT_4
+		<- AKG_MT_4
+		<- Glutamate_CY_4
+		<- Citrate_CY_4
+		<- Glutamate_CY_4
+
+Glutamate_MT_4
+		<- Glutamate_CY_4
+		<- Glutamate_CY_4
+		<- Glutamine_MT_4
+		<- AKG_MT_4
+		<- AKG_MT_4
+		<- AKG_MT_4
+
+Malate_CY_3
+		<- Malate_MT_3
+		<- Malate_MT_3
+		<- Fumarate_CY_3
+		<- Fumarate_CY_2
+		<- OAA_CY_3
+		<- Pyruvate_CY_3
+
+PEP_CY_3
+		<- PEP_MT_3
+		<- 3PG_3
+
+OAA_MT_3
+		<- Citrate_MT_2
+		<- Malate_MT_3
+		<- Aspartate_MT_3
+		<- PEP_MT_3
+		<- Pyruvate_MT_3
+
+Alanine_CY_3
+		<- Alanine_MT_3
+		<- Alanine_input_intermediate_dummy_3
+
+Alanine_input_intermediate_dummy_3
+		<- OTHER_3_carbon_3
+
+AKG_CY_3
+		<- AKG_MT_3
+		<- AKG_MT_3
+		<- Glutamate_CY_3
+		<- Citrate_CY_3
+		<- Glutamate_CY_3
+
+Fumarate_CY_2
+		<- Aspartate_CY_2
+		<- Fumarate_MT_2
+		<- Malate_CY_2
+		<- Malate_CY_3
+
+Fumarate_CY_3
+		<- Aspartate_CY_3
+		<- Fumarate_MT_3
+		<- Malate_CY_3
+		<- Malate_CY_2
+
+Glutamate_MT_3
+		<- Glutamate_CY_3
+		<- Glutamate_CY_3
+		<- Glutamine_MT_3
+		<- AKG_MT_3
+		<- AKG_MT_3
+		<- AKG_MT_3
+
+3PG_2
+		<- 13BPG_2
+
+Alanine_CY_2
+		<- Alanine_MT_2
+		<- Alanine_input_intermediate_dummy_2
+
+Alanine_input_intermediate_dummy_2
+		<- OTHER_3_carbon_2
+
+Glutamate_CY_4
+		<- Glutamate_MT_4
+		<- Glutamate_MT_4
+		<- Glutamine_CY_4
+		<- AKG_CY_4
+		<- AKG_CY_4
+
+Glutamine_MT_4
+		<- Glutamine_CY_4
+		<- Glutamate_MT_4
+
+OAA_CY_3
+		<- Citrate_CY_2
+		<- Malate_CY_3
+		<- Aspartate_CY_3
+
+PEP_MT_3
+		<- PEP_CY_3
+		<- OAA_MT_3
+
+3PG_3
+		<- 13BPG_3
+
+Citrate_MT_2
+		<- Citrate_CY_2
+		<- Citrate_CY_2
+		<- AKG_MT_2
+		<- AKG_MT_2
+		<- OAA_MT_3
+
+Aspartate_MT_3
+		<- Aspartate_CY_3
+		<- OAA_MT_3
+
+Glutamate_CY_3
+		<- Glutamate_MT_3
+		<- Glutamate_MT_3
+		<- Glutamine_CY_3
+		<- AKG_CY_3
+		<- AKG_CY_3
+
+Aspartate_CY_3
+		<- Aspartate_MT_3
+		<- OAA_CY_3
+
+Glutamine_MT_3
+		<- Glutamine_CY_3
+		<- Glutamate_MT_3
+
+13BPG_2
+		<- G3P_2
+
+Glutamine_CY_4
+		<- Glutamine_Media_4
+		<- Glutamine_MT_4
+		<- Glutamate_CY_4
+
+Citrate_CY_2
+		<- Citrate_MT_2
+		<- Citrate_MT_2
+		<- AKG_CY_2
+		<- OAA_CY_3
+
+13BPG_3
+		<- G3P_3
+
+AKG_MT_2
+		<- AKG_CY_2
+		<- AKG_CY_2
+		<- Glutamate_MT_2
+		<- Citrate_MT_2
+		<- Citrate_MT_2
+		<- Glutamate_MT_2
+		<- Glutamate_MT_2
+
+Glutamine_CY_3
+		<- Glutamine_Media_3
+		<- Glutamine_MT_3
+		<- Glutamate_CY_3
+
+G3P_2
+		<- Glc6P_CY_2
+		<- Glc6P_CY_5
+
+AKG_CY_2
+		<- AKG_MT_2
+		<- AKG_MT_2
+		<- Glutamate_CY_2
+		<- Citrate_CY_2
+		<- Glutamate_CY_2
+
+G3P_3
+		<- Glc6P_CY_3
+		<- Glc6P_CY_4
+
+Glutamate_MT_2
+		<- Glutamate_CY_2
+		<- Glutamate_CY_2
+		<- Glutamine_MT_2
+		<- AKG_MT_2
+		<- AKG_MT_2
+		<- AKG_MT_2
+
+Glc6P_CY_2
+		<- Glucose_2
+
+Glc6P_CY_5
+		<- Glucose_5
+
+Glutamate_CY_2
+		<- Glutamate_MT_2
+		<- Glutamate_MT_2
+		<- Glutamine_CY_2
+		<- AKG_CY_2
+		<- AKG_CY_2
+
+Glc6P_CY_3
+		<- Glucose_3
+
+Glc6P_CY_4
+		<- Glucose_4
+
+Glutamine_MT_2
+		<- Glutamine_CY_2
+		<- Glutamate_MT_2
+
+Glutamine_CY_2
+		<- Glutamine_Media_2
+		<- Glutamine_MT_2
+		<- Glutamate_CY_2
